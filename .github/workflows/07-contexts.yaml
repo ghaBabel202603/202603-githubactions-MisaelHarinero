@@ -22,4 +22,4 @@ jobs:
                     echo "Workflow: ${{github.workflow}}"
             -   name: "Show Repository VAR"
                 run: |
-                    echo "MY_VAR: ${{env.MY_VAR}}"
+                    echo "MY_VAR: ${{vars.MY_VAR}}"
