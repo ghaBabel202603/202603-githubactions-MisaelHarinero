@@ -1,11 +1,7 @@
-run-name: "09 - Env Variables"
+name: "09 - Env Variables"
 on:
     push:
     workflow_dispatch:
-        inputs:
-            debug:
-                type: boolean
-                default: false
 env:
     WORKFLOW_VAR: "I am a workflow env var"
     OVERWRITTEN: "I will be overwritten"
