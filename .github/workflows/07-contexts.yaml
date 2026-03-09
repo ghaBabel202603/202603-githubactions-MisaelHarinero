@@ -1,13 +1,13 @@
 name: "07 - Contexts"
 on:
-  push:
   workflow_dispatch:
     inputs:
         debug:
             type: boolean
             description: "Debug"
             default: false
-        
+env:
+    MY_VAR: hola
 jobs:
     echo:
         name: "Echo data"
