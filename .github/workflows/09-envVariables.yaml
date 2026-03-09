@@ -20,7 +20,7 @@ jobs:
               run: |
                  echo "Step env var: $STEP_VAR"
                  echo "Step env var 2: $STEP_VAR2"
-                 echo" Job env var: $JOB_VAR"
+                 echo "Job env var: $JOB_VAR"
                  echo "Workflow env var: $WORKFLOW_VAR"
                  echo "Overwritten: $OVERWRITTEN"
             
